@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CreateDB" type="Application" factoryName="Application">
+    <envs>
+      <env name="SQLITE_HOME" value="C:\sqlite" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="CreateDB" />
+    <module name="FinalProject" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

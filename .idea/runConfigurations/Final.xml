@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Final" type="Application" factoryName="Application">
+    <envs>
+      <env name="SQLITE_HOME" value="C:\sqlite" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="Final" />
+    <module name="FinalProject" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
