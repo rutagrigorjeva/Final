@@ -77,12 +77,12 @@ object Final extends App {
 
 
   //sort ratio results in descending order
-  val highest = acceptableRatio.sortBy(_.current_ratio).reverse
+  val rank = acceptableRatio.sortBy(_.current_ratio).reverse
 
   val topsToChoose = 99;
 
   // filtering $topsToChoose entities with highest current ratio
-  val top = highest.slice(0, topsToChoose)
+  val top = rank.slice(0, topsToChoose)
 
   println(
   s"""Acknowledging $topsToChoose companies with highest current ratios and preparing to store ratios,
